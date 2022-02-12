@@ -15,4 +15,14 @@ module.exports = {
     }
   },
 
+  production: {
+    client: 'postgresql',
+    connection: {
+      database: 'library_api',
+      user: 'postgres',
+      password: 'admin',
+      port: 5433
+    }
+  },
+
 };
